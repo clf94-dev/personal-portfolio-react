@@ -170,7 +170,7 @@ $font-weight7: 700;
 
 //----------------------About Me section -----------------
 .about-me-row {
-    padding: 5% 7%;
+    padding: 3% 7%;
     .img-col {
         .aboutme-img {
             margin-right: 5%;
@@ -450,6 +450,22 @@ $font-weight7: 700;
                 font-weight: $font-weight3;
                 font-size: 18px;
                 padding-right: 15%;
+            }
+            .contact-me-cont {
+                color: $very-light-grey;
+                margin-top: 50px;
+                margin-left: 0;
+                padding-left: 0 !important;
+                .footer-link {
+                    text-decoration: none !important;
+                    color: $grayish-dark-blue;
+                    &:hover {
+                        color: $desaturated-cyan;
+                    }
+                    .social-icon {
+                        margin: auto 5px;
+                    }
+                }
             }
         }
     }

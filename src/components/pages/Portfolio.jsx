@@ -13,7 +13,7 @@ function Portfolio() {
         <div>
              <Navbar active='portfolio'/>
             {PortfolioData.map((item, index) =>{
-                return (<ProjectRow index={item.index}  title={item.title} text={item.text} classes={item.classes} />)
+                return (<ProjectRow index={item.index} animation={item.animation}  title={item.title} text={item.text} classes={item.classes} />)
             })}
                <Cta/>
         </div>

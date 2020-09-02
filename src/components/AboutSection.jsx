@@ -4,14 +4,19 @@ import './styles/App.css'
 import Profile from './images/homepage/profile-img-carmen.JPEG'
 import {Button} from './Button';
 
+import AOS from 'aos'
+import 'aos/dist/aos.css';
+AOS.init();
+
+
 function AboutSection() {
     return (
         <div>
             <Grid container direction="row" className='about-me-row'>
                 <Grid item md={6} xs={12} className='img-col'>
-                    <img src={Profile} alt="about me image" className='aboutme-img'/>
+                    <img src={Profile} alt="about me image" className='aboutme-img'  data-aos="fade-up" data-aos-duration="2000"/>
                 </Grid>
-                <Grid item md={6} xs={12} className='text-col' direction='column'>
+                <Grid item md={6} xs={12} className='text-col' direction='column'data-aos="fade-left" data-aos-duration="2000">
                     <h3>About Me</h3>
                     <p> I’m an Industrial Engineer and self-taught junior front-end developer looking for a new role in an exciting company. I focus on writing accessible HTML, using modern CSS practices and writing clean JavaScript /Jquery.
                    </p>

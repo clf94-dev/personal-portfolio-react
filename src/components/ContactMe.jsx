@@ -23,6 +23,18 @@ function ContactMe() {
                             hard-working and positive person who will always approach each task with a sense
                             of purpose and attention to detail. Please do feel free to check out my online
                             profiles below and get in touch using the form.</p>
+
+                        <Grid container direction='row' className='contact-me-cont'>
+                            <a href="" className='footer-link'>
+                                <i className=' fab fa-2x fa-github social-icon'></i>
+                            </a>
+                            <a href="" className='footer-link'>
+                                <i className=' fab fa-2x fa-twitter social-icon'></i>
+                            </a>
+                            <a href="" className='footer-link'>
+                                <i className=' fab fa-2x fa-linkedin social-icon'></i>
+                            </a>
+                        </Grid>
                     </Grid>
 
                 </Grid>
