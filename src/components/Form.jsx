@@ -34,14 +34,16 @@ function Form() {
                         ref={register({required: true, pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i})}className="email-address input"/>
                     <ErrorMessage error={errors.email}/>
                     <h5 className='title'>Message</h5>
-                    <input
+                    <textarea
                         type="text"
                         name="message"
+                        className='message-input'
                         placeholder="Your message.."
                         style={errors.message && {
                         borderColor: "red"
+                        
                     }}
-                        ref={register({required: true})}className="message input"/>
+                        ref={register({required: true})} />
                     <ErrorMessage error={errors.message}/>
                 </form>
                 <Button type="submit" onClick={handleSubmit(onSubmit)}>

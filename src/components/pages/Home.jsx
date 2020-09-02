@@ -3,15 +3,10 @@ import HeroSection from '../HeroSection'
 import Cta from '../Cta'
 import '../styles/App.css';
 import AboutSection from '../AboutSection';
-
+import Navbar from '../Navbar';
 
 function Home() {
-    return ( < div >
-        <HeroSection / >
-<AboutSection/>
-            <Cta/>
-        </div>
-    );
+    return ( < div > <Navbar active='home'/> < HeroSection / > <AboutSection/> < Cta /> </div>);
 }
 
 export default Home;

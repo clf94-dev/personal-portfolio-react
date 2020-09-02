@@ -20,7 +20,7 @@
   justify-content: center;
   align-items: center;
   height: 80px;
-  max-width: 1500px;
+  max-width: 1600px;
 }
 
 .navbar .navbar-container .navbar-logo {
@@ -40,6 +40,12 @@
   margin-right: 2rem;
 }
 
+@media screen and (min-width: 756px) {
+  .navbar .navbar-container .nav-menu {
+    margin-left: 100px;
+  }
+}
+
 .navbar .navbar-container .nav-menu .nav-item .nav-links {
   color: #203A4C;
   font-family: "Public Sans", sans-serif;
@@ -52,7 +58,6 @@
 
 .navbar .navbar-container .nav-menu .nav-item .nav-links:hover {
   color: #5fb4a2;
-  border-bottom: 4px solid #5fb4a2;
 }
 
 .menu-icon {
@@ -71,7 +76,7 @@
     flex-direction: column !important;
     grid-gap: 5px;
     width: 100%;
-    height: 40vh;
+    height: 38vh;
     position: absolute;
     top: 80px;
     right: -100%;
@@ -90,7 +95,7 @@
     right: 0;
     opacity: 1;
     transition: all 0.3s ease;
-    z-index: 1;
+    z-index: 5;
   }
   .nav-menu.active .nav-item .nav-links {
     justify-content: center !important;
@@ -470,37 +475,40 @@
   }
 }
 
-.contact-top {
-  padding: 2% 7%;
-  align-items: center;
-  display: table;
+.contact-me-cont {
+  padding: 3% 7%;
 }
 
-.contact-top .title-col {
-  align-items: center;
-  margin-right: 20px;
+.contact-me-cont hr {
+  margin: 30px 6% 30px 0;
+  width: 100%;
+  color: #fafafa;
 }
 
-.contact-top .title-col h3 {
-  font-family: "Ibarra Real Nova", serif;
+.contact-me-cont .contact-top .title-col {
+  align-items: center;
+}
+
+.contact-me-cont .contact-top .title-col h3 {
+  font-family: "Public Sans", sans-serif;
   font-size: 35px;
   font-weight: 600;
 }
 
-.contact-top .right-col p {
+.contact-me-cont .contact-top .right-col {
+  padding: 0 0 0 3%;
+}
+
+.contact-me-cont .contact-top .right-col p {
   margin: 10px auto;
   font-family: "Public Sans", sans-serif;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 18px;
   padding-right: 15%;
 }
 
-.input-cont {
-  padding: 3% 7%;
-}
-
-.input-cont h2 {
+.contact-me-cont .input-cont h2 {
   font-size: 45px;
-  font-family: "Ibarra Real Nova", serif;
+  font-family: "Public Sans", sans-serif;
   font-weight: 600;
 }

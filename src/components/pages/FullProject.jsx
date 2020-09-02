@@ -2,6 +2,7 @@ import React from 'react'
 import Cta from '../Cta';
 import ProjectFullView from '../ProjectFullView';
 import { BrowserRouter as Router, Link} from 'react-router-dom'
+import Navbar from '../Navbar';
 
   
 function FullProject() {
@@ -10,7 +11,7 @@ function FullProject() {
     var index = segmArray.pop();
     return (
         <div>
-            
+             <Navbar />
             <ProjectFullView index={index}/>
             <Cta/>
         </div>

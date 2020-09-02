@@ -5,7 +5,7 @@ import ContactMe from '../ContactMe';
 function Contact() {
     return (
         <div>
-         
+          <Navbar active='contact-me'/>
             <ContactMe />
             
         </div>

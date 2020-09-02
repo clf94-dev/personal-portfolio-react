@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import {Link} from 'react-router-dom';
 import Logo from './images/logo.svg';
 
-function Navbar() {
+function Navbar({active}) {
 const [click, setClick] = useState(false);
 
 const handleClick=() =>setClick(!click);
@@ -24,14 +24,14 @@ const closeMobileMenu=(  )=> setClick(false);
                     className={click
                     ? 'nav-menu active'
                     : 'nav-menu'}>
-                    <li className="nav-item">
-                        <Link to='/' className='nav-links' onClick={closeMobileMenu}>Home</Link>
+                    <li className="nav-item" >
+                        <Link to='/' className='nav-links' onClick={closeMobileMenu} style={{color: active === "home"? '#5fb4a2' :'#203A4C'}}>Home</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to='/portfolio' className='nav-links' onClick={closeMobileMenu}>Portfolio</Link>
+                        <Link to='/portfolio' className='nav-links' onClick={closeMobileMenu} style={{color: active === "portfolio"? '#5fb4a2' :'#203A4C'}}>Portfolio</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to='/contact-me' className='nav-links' onClick={closeMobileMenu}>Contact Me</Link>
+                        <Link to='/contact-me' className='nav-links' onClick={closeMobileMenu} style={{color: active === "contact-me"? '#5fb4a2' :'#203A4C'}}>Contact Me</Link>
                     </li>
                 </ul>
             </div>
