@@ -242,6 +242,12 @@ $font-weight7: 700;
     }
 }
 
+.centered {
+    .img-col {
+        padding-top: 9%;
+    }
+}
+
 @media screen and (min-width: 756px) {
     .reverse {
         flex-flow: row-reverse;

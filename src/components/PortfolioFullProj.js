@@ -1,6 +1,6 @@
 export const PortfolioFullProj = [{
         index: 0,
-        titleRight: 'Covid-19 Tracker',
+        titleRight: 'Covid-19 Tracker ',
         textRight: 'This project required me to build a fully responsive page that displays live data from an API. I used React along with Material UIs grid sytem, CSS/Sass , useState/useEffect hooks and scroll animations from AOS library. The data can be filtered by country name',
         designType: 'Interaction Design / Front End Development',
         languages: 'React / Material UI / API / Sass ',
@@ -85,6 +85,50 @@ export const PortfolioFullProj = [{
         titleLeft: 'Project Background',
         textLeft: 'This project was a front-end challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should' +
             'look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.',
+        staticTitle: 'Static Previews'
+
+    }, {
+        index: 7,
+        titleRight: 'Scoot',
+        textRight: "This project required me to build a fully responsive multi page website. I used HTML5, along with CSS, Bootstrap's Grid system and JavaScript for the areas that required interactivity, such as the testimonial slider.     ",
+        designType: 'Interaction Design / Front End Development',
+        languages: 'HTML / CSS / Bootstrap / Sass / JS',
+        link: 'https://scoot-multi-page-website-git-master.clf94-dev.vercel.app/',
+        titleLeft: 'Project Background',
+        textLeft: "This project was a front-end challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.",
+        staticTitle: 'Static Previews'
+
+    }, {
+        index: 8,
+        titleRight: 'EasyBank',
+        textRight: 'This project required me to build a fully responsive single page website. I used HTML5, along with CSS, Bootstrap, Sass and JavaScript for the areas that required interactivity, such as the testimonial slider.',
+        designType: 'Interaction Design / Front End Development',
+        languages: 'HTML / CSS / Bootstrap / Sass / JS',
+        link: 'https://easybank-landing-page-git-master.clf94-dev.vercel.app/',
+        titleLeft: 'Project Background',
+        textLeft: "This project was a front-end challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.",
+        staticTitle: 'Static Previews'
+
+    }, {
+        index: 9,
+        titleRight: 'Chat App',
+        textRight: 'This project required me to build a fully responsive intro page website. I used HTML5, along with CSS, Bootstrap, Sass and JavaScript for the areas that required interactivity, such as the phone and message animations.',
+        designType: 'Interaction Design / Front End Development',
+        languages: 'HTML / CSS / Bootstrap / Sass / JS',
+        link: 'https://chat-app-landing-page-git-master.clf94-dev.vercel.app/',
+        titleLeft: 'Project Background',
+        textLeft: "This project was a front-end challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.",
+        staticTitle: 'Static Previews'
+
+    }, {
+        index: 10,
+        titleRight: 'Dine',
+        textRight: 'This project required me to build a fully responsive two-page website. I used HTML5, along with CSS, Bootstrap, Sass and JavaScript for the areas that required interactivity, such as the form validation.',
+        designType: 'Interaction Design / Front End Development',
+        languages: 'HTML / CSS / Bootstrap / Sass / JS',
+        link: 'https://dine-restaurant-website-git-master.clf94-dev.vercel.app/',
+        titleLeft: 'Project Background',
+        textLeft: "This project was a front-end challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.",
         staticTitle: 'Static Previews'
 
     }
