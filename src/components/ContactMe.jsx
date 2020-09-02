@@ -25,13 +25,13 @@ function ContactMe() {
                             profiles below and get in touch using the form.</p>
 
                         <Grid container direction='row' className='contact-me-cont'>
-                            <a href="" className='footer-link'>
+                            <a href="https://github.com/clf94-dev" className='footer-link'>
                                 <i className=' fab fa-2x fa-github social-icon'></i>
                             </a>
                             <a href="" className='footer-link'>
                                 <i className=' fab fa-2x fa-twitter social-icon'></i>
                             </a>
-                            <a href="" className='footer-link'>
+                            <a href="https://www.linkedin.com/in/carmen-lucas-fornell-994998144/" className='footer-link'>
                                 <i className=' fab fa-2x fa-linkedin social-icon'></i>
                             </a>
                         </Grid>

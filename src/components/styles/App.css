@@ -201,6 +201,7 @@
 }
 
 .about-me-row .text-col p {
+  margin-bottom: 10px;
   font-family: "Public Sans", sans-serif;
   font-size: 20px;
 }
@@ -265,7 +266,7 @@
 }
 
 .full-project-cont {
-  padding: 5% 7%;
+  padding: 5% 7% 2%;
 }
 
 .full-project-cont .project-top {
@@ -358,6 +359,10 @@
   margin: 15px auto;
 }
 
+.full-project-cont .next-prev-proj {
+  padding-top: 30px;
+}
+
 .full-project-cont .next-prev-proj h5 {
   font-size: 14px;
   font-family: "Public Sans", sans-serif;
@@ -396,7 +401,7 @@
 }
 
 .cta-cont {
-  padding: 5% 7%;
+  padding: 3% 7% 5%;
   align-items: center;
 }
 

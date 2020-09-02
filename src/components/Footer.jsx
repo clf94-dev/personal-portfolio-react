@@ -22,9 +22,9 @@ function Footer() {
                 <Grid item sm={2} xs={12} className='footer-item'></Grid>
                 <Grid item sm={2} xs={12} className='footer-item'>
                     <Grid container direction='row' className='social-row'>
-                       <a href="" className='footer-link'><i className=' fab fa-2x fa-github social-icon'></i></a> 
+                       <a href="https://github.com/clf94-dev" className='footer-link'><i className=' fab fa-2x fa-github social-icon'></i></a> 
                         <a href=""className='footer-link'><i className=' fab fa-2x fa-twitter social-icon'></i></a>
-                       <a href=""className='footer-link'><i className=' fab fa-2x fa-linkedin social-icon'></i></a> 
+                       <a href= "https://www.linkedin.com/in/carmen-lucas-fornell-994998144/"className='footer-link'><i className=' fab fa-2x fa-linkedin social-icon'></i></a> 
                     </Grid>
                 </Grid>
             </Grid>

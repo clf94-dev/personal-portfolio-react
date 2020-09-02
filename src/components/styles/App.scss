@@ -191,6 +191,7 @@ $font-weight7: 700;
             font-size: 40px;
         }
         p {
+            margin-bottom: 10px;
             font-family: $font-body;
             font-size: 20px;
         }
@@ -247,8 +248,9 @@ $font-weight7: 700;
     }
 }
 
+//----------------------------Full project view------------------------
 .full-project-cont {
-    padding: 5% 7%;
+    padding: 5% 7% 2%;
     .project-top {
         align-self: center;
         width: 100%;
@@ -325,6 +327,7 @@ $font-weight7: 700;
         }
     }
     .next-prev-proj {
+        padding-top: 30px;
         h5 {
             font-size: 14px;
             font-family: $font-body;
@@ -361,7 +364,7 @@ $font-weight7: 700;
 
 //----------------------CTA section ------------------
 .cta-cont {
-    padding: 5% 7%;
+    padding: 3% 7% 5%;
     align-items: center;
     .text-col {
         h2 {

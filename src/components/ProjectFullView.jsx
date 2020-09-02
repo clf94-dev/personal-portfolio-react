@@ -11,24 +11,33 @@ import Manage from './images/detail/image-manage-hero.jpg';
 import Bookmark from './images/detail/image-bookmark-hero.jpg';
 import Insure from './images/detail/image-insure-hero.jpg';
 import Fylo from './images/detail/image-fylo-hero.jpg';
+import CountriesDictionary from'./images/detail/countries-api-top.jpg';
+import Covid from './images/detail/covidTop.jpg';
+import Crypto from './images/detail/cryptoTop.jpg';
+
 
 import ManageStatic from './images/detail/image-manage-preview-1.jpg';
 import BookmarkStatic from './images/detail/image-bookmark-preview-1.jpg';
 import InsureStatic from './images/detail/image-insure-preview-1.jpg';
 import FyloStatic from './images/detail/image-fylo-preview-1.jpg';
+import CryptoStatic1 from './images/detail/cryptostatic1.jpg';
+import CovidStatic1 from './images/detail/covidstatic1.jpg';
 
 import ManageStatic2 from './images/detail/image-manage-preview-2.jpg';
 import BookmarkStatic2 from './images/detail/image-bookmark-preview-2.jpg';
 import InsureStatic2 from './images/detail/image-insure-preview-2.jpg';
 import FyloStatic2 from './images/detail/image-fylo-preview-2.jpg';
+import CountriesStatic from './images/detail/countries-api-static.jpeg';
+import CryptoStatic2 from './images/detail/cryptostatic2.jpg';
+import CovidStatic2 from './images/detail/covidstatic2.jpg';
 
 export default function ProjectFullView(props) {
-    const ProjectTopImg = [Manage, Bookmark, Insure, Fylo];
-    const ProjectStaticImg = [ManageStatic, BookmarkStatic, InsureStatic, FyloStatic];
-    const ProjectStaticImg2 = [ManageStatic2, BookmarkStatic2, InsureStatic2, FyloStatic2];
-    const previousProject = [3, 0, 1, 2];
-    const webLinks =["https://manage-landing-page-26jdlsq2z.vercel.app/","https://booking-landing-page.vercel.app/", "https://insure-landing-page-gegnuifr6.vercel.app/","https://fylo-dark-theme-landing-page-hk1hmyywi.vercel.app/"]
-    const nextProject = [1, 2, 3, 0];
+    const ProjectTopImg = [Covid, Crypto, CountriesDictionary ,Fylo ,Manage, Bookmark, Insure ];
+    const ProjectStaticImg = [CovidStatic1,CryptoStatic1, CountriesDictionary , FyloStatic,ManageStatic, BookmarkStatic, InsureStatic];
+    const ProjectStaticImg2 = [CovidStatic2, CryptoStatic2, CountriesStatic ,FyloStatic2,ManageStatic2, BookmarkStatic2, InsureStatic2];
+    const previousProject = [6, 0, 1, 2,3,4 ,5];
+    const webLinks =["https://covid-19-tracker-clf94-dev.netlify.app/","https://crypto-price-eur-usd-tracker-clf94-dev.netlify.app/","https://countries-info-api-clf94-dev.netlify.app/","https://fylo-dark-theme-landing-page-hk1hmyywi.vercel.app/","https://manage-landing-page-26jdlsq2z.vercel.app/","https://booking-landing-page.vercel.app/", "https://insure-landing-page-gegnuifr6.vercel.app/"]
+    const nextProject = [1, 2, 3,4,5,6, 0];
 
     return (
 
