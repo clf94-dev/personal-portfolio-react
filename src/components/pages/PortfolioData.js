@@ -69,7 +69,7 @@ export const PortfolioData = [{
         index: 10,
         animation: 'fade-left',
         title: 'Dine',
-        text: ' This project required me to build a fully responsive two-page website. I used HTML5, along with CSS, Bootstrap 4, Sass and JavaScript for the areas that required interactivity, such as the form section.',
+        text: 'This project required me to build a fully responsive two-page website. I used React along with Material UIs grid sytem, CSS/Sass , useState/useEffect hooks and scroll animations from AOS library.',
         classes: 'project-row'
     }
 
