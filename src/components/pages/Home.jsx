@@ -5,8 +5,8 @@ import '../styles/App.css';
 import AboutSection from '../AboutSection';
 import Navbar from '../Navbar';
 
-function Home() {
+export default function Home() {
     return ( < div > <Navbar active='home'/> < HeroSection / > <AboutSection/> < Cta /> </div>);
 }
 
-export default Home;
+ 
