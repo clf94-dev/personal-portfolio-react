@@ -8,5 +8,6 @@ import ScootStatic1 from './images/portfolio/scoot-top.jpg';
 import EasyBankStatic1 from './images/portfolio/easybank-top.jpg';
 import ChatAppStatic1 from './images/portfolio/chat-app-top.jpg';
 import DineStatic1 from './images/portfolio/dine-top.jpg';
+import SnapshotStatic from './images/detail/snapshotStatic.jpg';
 
-export { ManageStatic, BookmarkStatic, InsureStatic, FyloStatic, CryptoStatic1, CovidStatic1, ScootStatic1, EasyBankStatic1, ChatAppStatic1, DineStatic1 }
+export { ManageStatic, BookmarkStatic, InsureStatic, FyloStatic, CryptoStatic1, CovidStatic1, ScootStatic1, EasyBankStatic1, ChatAppStatic1, DineStatic1, SnapshotStatic }

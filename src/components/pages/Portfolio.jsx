@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import {Grid} from '@material-ui/core/';
 
 import '../styles/App.css';
@@ -8,6 +8,9 @@ import Cta from '../Cta';
 import Navbar from '../Navbar';
 
 function Portfolio() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, []);
 
     return (
         <div>

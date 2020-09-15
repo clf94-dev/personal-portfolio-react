@@ -1,5 +1,17 @@
 export const PortfolioFullProj = [{
         index: 0,
+        titleRight: 'Snapshot ',
+        textRight: 'This project required me to build a fully responsive multi-page website. I used React along with Material UIs grid sytem, CSS/Sass , useState/useEffect hooks and scroll animations from AOS library.',
+        designType: 'Interaction Design / Front End Development',
+        languages: 'React / Material UI / Router / Sass ',
+        link: "https://snapshot-web-clf94-dev.netlify.app",
+        titleLeft: 'Project Background',
+        textLeft: "This project was a front-end challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.",
+        staticTitle: 'Static Previews'
+
+    },
+    {
+        index: 1,
         titleRight: 'Covid-19 Tracker ',
         textRight: 'This project required me to build a fully responsive page that displays live data from an API. I used React along with Material UIs grid sytem, CSS/Sass , useState/useEffect hooks and scroll animations from AOS library. The data can be filtered by country name',
         designType: 'Interaction Design / Front End Development',
@@ -10,7 +22,7 @@ export const PortfolioFullProj = [{
         staticTitle: 'Static Previews'
 
     }, {
-        index: 1,
+        index: 2,
         titleRight: 'Crypto Currency Tracker',
         textRight: 'This project required me to build a fully responsive  page that displays live data of crypto currency prices for USD and EUR. This data is obtained from an API. I used React along with Material UIs grid sytem, CSS/Sass and useState/useEffect hooks . The data can be filtered by crypto-currency name ',
         designType: 'Interaction Design / Front End Development',
@@ -23,11 +35,11 @@ export const PortfolioFullProj = [{
 
 
     }, {
-        index: 2,
+        index: 3,
         titleRight: 'Countries Dictionary',
         textRight: "This project required me to build a fully responsive two page website that displays countries's general information from an API. I used React along with Material UIs grid sytem, CSS/Sass , useState/useEffect hooks and scroll animations from AOS library. The data can be filtered by country name and the theme of the page can be change to a dark mode theme",
         designType: 'Interaction Design / Front End Development',
-        languages: 'React / Material UI / API / Sass /  ',
+        languages: 'React / Material UI / Router / API / Sass /  ',
         link: "https://countries-info-api-clf94-dev.netlify.app/",
         titleLeft: 'Project Background',
         textLeft: 'This project was a simple looking React front-end challenge i did so i could practice API requests, scroll animations and Router for connecting pages.',
@@ -35,7 +47,19 @@ export const PortfolioFullProj = [{
 
     },
     {
-        index: 3,
+        index: 4,
+        titleRight: 'Dine',
+        textRight: 'This project required me to build a fully responsive two-page website. I used React along with Material UIs grid sytem, CSS/Sass , useState/useEffect hooks and scroll animations from AOS library.',
+        designType: 'Interaction Design / Front End Development',
+        languages: 'React / Material UI / Router/ AOS Animation / Sass ',
+        link: 'https://dine-restaurant-clf94-dev.netlify.app/',
+        titleLeft: 'Project Background',
+        textLeft: "This project was a front-end challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.",
+        staticTitle: 'Static Previews'
+
+    },
+    {
+        index: 5,
         titleRight: 'Fylo',
         textRight: 'This project required me to build a fully responsive single page website. I used React along with Material UIs grid sytem, CSS/Sass , useState/useEffect hooks and scroll animations from AOS library.',
         designType: 'Interaction Design / Front End Development',
@@ -46,7 +70,7 @@ export const PortfolioFullProj = [{
             'look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.',
         staticTitle: 'Static Previews'
     }, {
-        index: 4,
+        index: 6,
         titleRight: 'Manage',
         textRight: 'This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS, Bootstraps Grid system and JavaScript for the areas that required interactivity, such as the navigation bar and testimonial slider.',
         designType: 'Interaction Design / Front End Development',
@@ -58,7 +82,7 @@ export const PortfolioFullProj = [{
         staticTitle: 'Static Previews'
 
     }, {
-        index: 5,
+        index: 7,
         titleRight: 'Bookmark',
         textRight: 'This project required me to build a fully responsive landing page to the designs' +
             ' provided. I used HTML5, along with CSS Grid and JavaScript for the areas that r' +
@@ -74,7 +98,7 @@ export const PortfolioFullProj = [{
 
 
     }, {
-        index: 6,
+        index: 8,
         titleRight: 'Insure',
         textRight: 'This was a small project which mostly consisted of HTML, CSS and Bootstraps Grid system. I built a fully-responsive landing page. The only JavaScript this project required was to enable the toggling of the mobile navigation.    ',
         designType: 'Interaction Design / Front End Development',
@@ -86,7 +110,7 @@ export const PortfolioFullProj = [{
         staticTitle: 'Static Previews'
 
     }, {
-        index: 7,
+        index: 9,
         titleRight: 'Scoot',
         textRight: "This project required me to build a fully responsive multi page website. I used HTML5, along with CSS, Bootstrap's Grid system and JavaScript for the areas that required interactivity, such as the testimonial slider.     ",
         designType: 'Interaction Design / Front End Development',
@@ -97,7 +121,7 @@ export const PortfolioFullProj = [{
         staticTitle: 'Static Previews'
 
     }, {
-        index: 8,
+        index: 10,
         titleRight: 'EasyBank',
         textRight: 'This project required me to build a fully responsive single page website. I used HTML5, along with CSS, Bootstrap, Sass and JavaScript for the areas that required interactivity, such as the testimonial slider.',
         designType: 'Interaction Design / Front End Development',
@@ -108,23 +132,12 @@ export const PortfolioFullProj = [{
         staticTitle: 'Static Previews'
 
     }, {
-        index: 9,
+        index: 11,
         titleRight: 'Chat App',
         textRight: 'This project required me to build a fully responsive intro page website. I used HTML5, along with CSS, Bootstrap, Sass and JavaScript for the areas that required interactivity, such as the phone and message animations.',
         designType: 'Interaction Design / Front End Development',
         languages: 'HTML / CSS / Bootstrap / Sass / JS',
         link: 'https://chat-app-landing-page-git-master.clf94-dev.vercel.app/',
-        titleLeft: 'Project Background',
-        textLeft: "This project was a front-end challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.",
-        staticTitle: 'Static Previews'
-
-    }, {
-        index: 10,
-        titleRight: 'Dine',
-        textRight: 'This project required me to build a fully responsive two-page website. I used React along with Material UIs grid sytem, CSS/Sass , useState/useEffect hooks and scroll animations from AOS library.',
-        designType: 'Interaction Design / Front End Development',
-        languages: 'React / Material UI / AOS Animation / Sass ',
-        link: 'https://dine-restaurant-clf94-dev.netlify.app/',
         titleLeft: 'Project Background',
         textLeft: "This project was a front-end challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.",
         staticTitle: 'Static Previews'
