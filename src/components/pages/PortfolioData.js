@@ -32,9 +32,9 @@ export const PortfolioData = [{
     }, {
         index: 5,
         animation: 'fade-right',
-        title: 'Fylo ',
-        text: 'This project required me to build a fully responsive landing page.  I used React along with Material UIs grid sytem, CSS/Sass and useState/useEffect hooks.  ',
-        classes: 'project-row reverse'
+        title: 'IP tracker ',
+        text: 'This project required me to build a fully responsive  website that displays the information of an IP Address from an API.I used React along with Material UIs grid sytem, CSS/Sass and useState/useEffect hooks.',
+        classes: 'project-row centered reverse'
     }, {
         index: 6,
         animation: 'fade-left',

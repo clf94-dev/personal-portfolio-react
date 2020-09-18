@@ -4,14 +4,14 @@ import {Button} from './Button';
 
 import './styles/App.css';
 
-import { Manage, Bookmark, Insure, Fylo, CountriesDictionary, Covid, Crypto, Scoot, EasyBank, ChatApp, Dine, Snapshot } from './PortfolioImg'
+import { Manage, Bookmark, Insure, IPTrackerTop, CountriesDictionary, Covid, Crypto, Scoot, EasyBank, ChatApp, Dine, Snapshot } from './PortfolioImg'
 
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 AOS.init();
 
 function ProjectRow(props) {
-    const ProjectsImg = [Snapshot,Covid, Crypto, CountriesDictionary, Dine  ,Fylo ,Manage, Bookmark, Insure,Scoot, EasyBank, ChatApp];
+    const ProjectsImg = [Snapshot,Covid, Crypto, CountriesDictionary, Dine  ,IPTrackerTop ,Manage, Bookmark, Insure,Scoot, EasyBank, ChatApp];
     return (
         <div>
             <Grid container direction="row" className={props.classes} data-aos={props.animation} data-aos-duration="1200">

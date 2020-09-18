@@ -47,7 +47,7 @@ function Form() {
                     <ErrorMessage error={errors.message}/>
                 </form>
                 <Button type="submit" onClick={handleSubmit(onSubmit)}>
-                    Claim your free trial</Button>
+                    Send Message </Button>
 
             </Grid>
         </Grid>

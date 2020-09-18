@@ -60,14 +60,13 @@ export const PortfolioFullProj = [{
     },
     {
         index: 5,
-        titleRight: 'Fylo',
-        textRight: 'This project required me to build a fully responsive single page website. I used React along with Material UIs grid sytem, CSS/Sass , useState/useEffect hooks and scroll animations from AOS library.',
+        titleRight: 'IP tracker',
+        textRight: "This project required me to build a fully responsive  website that displays the information of an IP Address from an API. I used React along with Material UIs grid sytem, CSS/Sass and useState/useEffect hooks . The data from the API will be display on a map (Leaflet for React).                 **To be able to get a result for an address, the firefox protection must be disabled. If not, the web will be blocked and the search won't be possible due to the fact that the API uses and url 'http:/' instead of 'https:/'",
         designType: 'Interaction Design / Front End Development',
-        languages: 'React / Material UI / AOS Animation / Sass',
-        link: 'https://fylo-dark-page-clf94-dev.netlify.app/',
+        languages: 'React / Material UI / API / Map / Sass',
+        link: 'https://ip-address-tracker-clf94-dev.netlify.app/',
         titleLeft: 'Project Background',
-        textLeft: 'This project was a front-end challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should' +
-            'look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.',
+        textLeft: "This project was a front-end challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.",
         staticTitle: 'Static Previews'
     }, {
         index: 6,

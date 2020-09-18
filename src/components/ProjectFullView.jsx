@@ -7,26 +7,137 @@ import {PortfolioFullProj} from './PortfolioFullProj';
 import ArrowLeft from './images/icons/arrow-left.svg';
 import ArrowRight from './images/icons/arrow-right.svg';
 
-import {Manage, Bookmark, Insure,Fylo, CountriesDictionary, Covid,Crypto, Scoot, EasyBank, ChatApp, Dine, Snapshot} from './TopImgProjects'
-import {ManageStatic, BookmarkStatic, InsureStatic, FyloStatic, CryptoStatic1, CovidStatic1, ScootStatic1, EasyBankStatic1,ChatAppStatic1, DineStatic1, SnapshotStatic} from './StaticImgProjects'
-import {ManageStatic2, BookmarkStatic2, InsureStatic2,FyloStatic2, CountriesStatic, CryptoStatic2, CovidStatic2, ScootStatic2, EasyBankStatic2, ChatAppStatic2, DineStatic2, SnapshotStatic2} from './Static2ImgProjects'
-
-
-
+import {
+    Manage,
+    Bookmark,
+    Insure,
+    IPTrackerTop,
+    CountriesDictionary,
+    Covid,
+    Crypto,
+    Scoot,
+    EasyBank,
+    ChatApp,
+    Dine,
+    Snapshot
+} from './TopImgProjects'
+import {
+    ManageStatic,
+    BookmarkStatic,
+    InsureStatic,
+    IPTrackerStatic1,
+    CryptoStatic1,
+    CovidStatic1,
+    ScootStatic1,
+    EasyBankStatic1,
+    ChatAppStatic1,
+    DineStatic1,
+    SnapshotStatic
+} from './StaticImgProjects'
+import {
+    ManageStatic2,
+    BookmarkStatic2,
+    InsureStatic2,
+    IPTrackerStatic,
+    CountriesStatic,
+    CryptoStatic2,
+    CovidStatic2,
+    ScootStatic2,
+    EasyBankStatic2,
+    ChatAppStatic2,
+    DineStatic2,
+    SnapshotStatic2
+} from './Static2ImgProjects'
 
 export default function ProjectFullView(props) {
-    const ProjectTopImg = [Snapshot,Covid, Crypto, CountriesDictionary, Dine ,Fylo ,Manage, Bookmark, Insure, Scoot, EasyBank, ChatApp  ];
-    const ProjectStaticImg = [SnapshotStatic,CovidStatic1,CryptoStatic1, CountriesDictionary, DineStatic1 , FyloStatic,ManageStatic, BookmarkStatic, InsureStatic, ScootStatic1, EasyBankStatic1, ChatAppStatic1];
-    const ProjectStaticImg2 = [SnapshotStatic2,CovidStatic2, CryptoStatic2, CountriesStatic ,DineStatic2,FyloStatic2,ManageStatic2, BookmarkStatic2, InsureStatic2, ScootStatic2, EasyBankStatic2, ChatAppStatic2 ];
-    const previousProject = [6, 0, 1, 2,3,4 ,5,6,7,8,9,10,11];
-    const webLinks =["https://snapshot-web-clf94-dev.netlify.app","https://covid-19-tracker-clf94-dev.netlify.app/","https://crypto-price-eur-usd-tracker-clf94-dev.netlify.app/","https://countries-info-api-clf94-dev.netlify.app/",'https://dine-restaurant-clf94-dev.netlify.app/',"https://fylo-dark-page-clf94-dev.netlify.app/","https://manage-landing-page-26jdlsq2z.vercel.app/","https://booking-landing-page.vercel.app/", "https://insure-landing-page-gegnuifr6.vercel.app/","https://scoot-multi-page-website-git-master.clf94-dev.vercel.app/","https://easybank-landing-page-git-master.clf94-dev.vercel.app/","https://chat-app-landing-page-git-master.clf94-dev.vercel.app/"]
-    const nextProject = [1, 2, 3,4,5,6,7,8,9,10,11, 0];
-
-
-    
+    const ProjectTopImg = [
+        Snapshot,
+        Covid,
+        Crypto,
+        CountriesDictionary,
+        Dine,
+        IPTrackerTop,
+        Manage,
+        Bookmark,
+        Insure,
+        Scoot,
+        EasyBank,
+        ChatApp
+    ];
+    const ProjectStaticImg = [
+        SnapshotStatic,
+        CovidStatic1,
+        CryptoStatic1,
+        CountriesDictionary,
+        DineStatic1,
+        IPTrackerStatic1,
+        ManageStatic,
+        BookmarkStatic,
+        InsureStatic,
+        ScootStatic1,
+        EasyBankStatic1,
+        ChatAppStatic1
+    ];
+    const ProjectStaticImg2 = [
+        SnapshotStatic2,
+        CovidStatic2,
+        CryptoStatic2,
+        CountriesStatic,
+        DineStatic2,
+        IPTrackerStatic,
+        ManageStatic2,
+        BookmarkStatic2,
+        InsureStatic2,
+        ScootStatic2,
+        EasyBankStatic2,
+        ChatAppStatic2
+    ];
+    const previousProject = [
+        6,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+    ];
+    const webLinks = [
+        "https://snapshot-web-clf94-dev.netlify.app",
+        "https://covid-19-tracker-clf94-dev.netlify.app/",
+        "https://crypto-price-eur-usd-tracker-clf94-dev.netlify.app/",
+        "https://countries-info-api-clf94-dev.netlify.app/",
+        'https://dine-restaurant-clf94-dev.netlify.app/',
+        "https://ip-address-tracker-clf94-dev.netlify.app/",
+        "https://manage-landing-page-26jdlsq2z.vercel.app/",
+        "https://booking-landing-page.vercel.app/",
+        "https://insure-landing-page-gegnuifr6.vercel.app/",
+        "https://scoot-multi-page-website-git-master.clf94-dev.vercel.app/",
+        "https://easybank-landing-page-git-master.clf94-dev.vercel.app/",
+        "https://chat-app-landing-page-git-master.clf94-dev.vercel.app/"
+    ]
+    const nextProject = [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        0
+    ];
 
     useEffect(() => {
-      window.scrollTo(0, 0)
+        window.scrollTo(0, 0)
     }, [])
 
     return (
@@ -44,15 +155,13 @@ export default function ProjectFullView(props) {
                         <p>{PortfolioFullProj[props.index].textRight}</p>
                         <h5>{PortfolioFullProj[props.index].designType}</h5>
                         <h5>{PortfolioFullProj[props.index].languages}</h5>
-                        
-                        <a href={webLinks[props.index]}><button
-                            className='project-btn'
-                            link={ webLinks[props.index]}>
-                         
-                           VIEW WEBSITE
-                          
-                            
-                        </button>
+
+                        <a href={webLinks[props.index]}>
+                            <button className='project-btn' link={webLinks[props.index]}>
+
+                                VIEW WEBSITE
+
+                            </button>
                         </a>
                         <hr/>
                     </Grid>
@@ -90,7 +199,14 @@ export default function ProjectFullView(props) {
                                 <h3>{PortfolioFullProj[nextProject[props.index]].titleRight}</h3>
 
                             </Grid>
-                            <Grid item md={2} xs={4} direction='column' style={{textAlign: 'end'}}>
+                            <Grid
+                                item
+                                md={2}
+                                xs={4}
+                                direction='column'
+                                style={{
+                                textAlign: 'end'
+                            }}>
                                 <Button
                                     buttonStyle='btn--outline'
                                     link={`/full-project/${nextProject[props.index]}`}><img className='previous-next-btn' src={ArrowRight} alt="arrow right"/></Button>
