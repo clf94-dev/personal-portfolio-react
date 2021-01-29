@@ -9,6 +9,9 @@ import Scoot from './images/portfolio/scoot-top.jpg';
 import EasyBank from './images/portfolio/easybank-top.jpg';
 import ChatApp from './images/portfolio/chat-app-top.jpg';
 import Dine from './images/portfolio/dine-top.jpg';
-import Snapshot from './images/detail/snapshotTop.jpg'
+import PhotoSnap from './images/detail/snapshotTop.jpg';
+import Arch from './images/detail/arch-top.jpg';
+import PayApi from './images/detail/PayApi-top.jpg';
+import MyTeam from './images/detail/myteam-top.jpg';
 
-export { Manage, Bookmark, Insure, IPTrackerTop, CountriesDictionary, Covid, Crypto, Scoot, EasyBank, ChatApp, Dine, Snapshot }
+export { Manage, Bookmark, Insure, IPTrackerTop, CountriesDictionary, Covid, Crypto, Scoot, EasyBank, ChatApp, Dine, PhotoSnap, Arch, PayApi, MyTeam }

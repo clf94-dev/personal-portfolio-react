@@ -4,14 +4,14 @@ import {Button} from './Button';
 
 import './styles/App.css';
 
-import { IPTrackerTop, CountriesDictionary, Covid, Crypto,  Dine, PhotoSnap } from './PortfolioImg'
+import {Arch, PayApi, MyTeam,  PhotoSnap } from './PortfolioImg'
 
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 AOS.init();
 
-function ProjectRowReact(props) {
-    const ProjectsImg = [PhotoSnap,Covid, Crypto, CountriesDictionary, Dine  ,IPTrackerTop ];
+function ProjectRowVue(props) {
+    const ProjectsImg = [Arch, PayApi, MyTeam,PhotoSnap ];
     return (
         <div>
             <Grid container direction="row" className={props.classes} data-aos={props.animation} data-aos-duration="1200">
@@ -39,4 +39,4 @@ function ProjectRowReact(props) {
     )
 }
 
-export default ProjectRowReact
+export default ProjectRowVue

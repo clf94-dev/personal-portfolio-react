@@ -3,7 +3,7 @@ import {Grid} from '@material-ui/core/';
 
 import '../styles/App.css';
 import { PortfolioDataReact} from './PortfolioDataReact'
-import ProjectRow from '../ProjectRow';
+import ProjectRowReact from '../ProjectRowReact';
 import Cta from '../Cta';
 import Navbar from '../Navbar';
 
@@ -16,7 +16,7 @@ function PortfolioReact() {
         <div>
              <Navbar active='portfolio'/>
             {PortfolioDataReact.map((item, index) =>{
-                return (<ProjectRow index={item.index} animation={item.animation}  title={item.title} text={item.text} classes={item.classes} />)
+                return (<ProjectRowReact index={item.index} animation={item.animation}  title={item.title} text={item.text} classes={item.classes} />)
             })}
                <Cta/>
         </div>

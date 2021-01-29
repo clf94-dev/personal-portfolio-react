@@ -19,7 +19,7 @@ import {
     EasyBank,
     ChatApp,
     Dine,
-    Snapshot
+    PhotoSnap
 } from './TopImgProjects'
 import {
     ManageStatic,
@@ -51,7 +51,7 @@ import {
 
 export default function ProjectFullView(props) {
     const ProjectTopImg = [
-        Snapshot,
+        PhotoSnap,
         Covid,
         Crypto,
         CountriesDictionary,
