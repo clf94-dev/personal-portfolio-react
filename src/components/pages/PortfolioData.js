@@ -1,7 +1,7 @@
 export const PortfolioData = [{
         index: 0,
         animation: 'fade-left',
-        title: 'Snapshot',
+        title: 'PhotoSnap',
         text: 'This project required me to build a fully responsive multi-page website. I used React along with Material UIs grid sytem, CSS/Sass , useState/useEffect hooks and scroll animations from AOS library.',
         classes: 'project-row'
     }, {
