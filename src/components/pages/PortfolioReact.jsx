@@ -16,7 +16,7 @@ function PortfolioReact() {
         <div>
              <Navbar active='portfolio'/>
             {PortfolioDataReact.map((item, index) =>{
-                return (<ProjectRowReact index={item.index} animation={item.animation}  title={item.title} text={item.text} classes={item.classes} />)
+                return (<ProjectRowReact lang={item.lang} index={item.index} animation={item.animation}  title={item.title} text={item.text} classes={item.classes} />)
             })}
                <Cta/>
         </div>

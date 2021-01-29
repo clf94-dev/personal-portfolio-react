@@ -16,7 +16,7 @@ function PortfolioAngular (){
         <div>
              <Navbar active='portfolio'/>
             {PortfolioDataAngular.map((item, index) =>{
-                return (<ProjectRowAngular index={item.index} animation={item.animation}  title={item.title} text={item.text} classes={item.classes} />)
+                return (<ProjectRowAngular lang={item.lang} index={item.index} animation={item.animation}  title={item.title} text={item.text} classes={item.classes} />)
             })}
                <Cta/>
         </div>

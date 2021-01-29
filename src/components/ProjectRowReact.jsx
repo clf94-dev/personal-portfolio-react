@@ -4,14 +4,14 @@ import {Button} from './Button';
 
 import './styles/App.css';
 
-import { IPTrackerTop, CountriesDictionary, Covid, Crypto,  Dine, PhotoSnap } from './PortfolioImg'
+import { IPTrackerTop, CountriesDictionary, Covid, Crypto,  Dine, PhotoSnap, Arch, PayApi, MyTeam } from './PortfolioImg'
 
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 AOS.init();
 
 function ProjectRowReact(props) {
-    const ProjectsImg = [PhotoSnap,Covid, Crypto, CountriesDictionary, Dine  ,IPTrackerTop ];
+    const ProjectsImg = [Arch, PayApi, MyTeam,PhotoSnap,Covid, Crypto, CountriesDictionary, Dine  ,IPTrackerTop ];
     return (
         <div>
             <Grid container direction="row" className={props.classes} data-aos={props.animation} data-aos-duration="1200">
@@ -26,7 +26,7 @@ function ProjectRowReact(props) {
                     <p>{props.text}</p>
                     <Button
                         className='project-btn'
-                        link={`/full-project/${props.index}`}
+                        link={`/full-project/${props.lang}/${props.index}`}
                         buttonStyle='btn--outline'
                         buttonSize='btn--large'>
                         VIEW PROJECT

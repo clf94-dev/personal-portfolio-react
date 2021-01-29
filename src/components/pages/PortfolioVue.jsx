@@ -16,7 +16,7 @@ function PortfolioVue (){
         <div>
              <Navbar active='portfolio'/>
             {PortfolioDataVue.map((item, index) =>{
-                return (<ProjectRowVue index={item.index} animation={item.animation}  title={item.title} text={item.text} classes={item.classes} />)
+                return (<ProjectRowVue lang={item.lang} index={item.index} animation={item.animation}  title={item.title} text={item.text} classes={item.classes} />)
             })}
                <Cta/>
         </div>

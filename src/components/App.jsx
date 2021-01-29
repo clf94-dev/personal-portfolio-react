@@ -21,7 +21,7 @@ function App() {
                     <Route path='/portfolioreact' component={PortfolioReact}></Route>
                     <Route path='/portfolioangular' component={PortfolioAngular}></Route>
                     <Route path='/portfoliovue' component={PortfolioVue}></Route>
-                    <Route path='/full-project/:index' component={FullProject}></Route>
+                    <Route path='/full-project/:lang/:index' component={FullProject}></Route>
 
                     <Route path='/contact-me' component={Contact}></Route>
                     

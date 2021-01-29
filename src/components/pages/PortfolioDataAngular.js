@@ -1,4 +1,5 @@
 export const PortfolioDataAngular = [{
+        lang: 1,
         index: 0,
         animation: 'fade-left',
         title: 'Arch',
@@ -6,6 +7,7 @@ export const PortfolioDataAngular = [{
         classes: 'project-row'
     },
     {
+        lang: 1,
         index: 1,
         animation: 'fade-right',
         title: 'PayApi',
@@ -13,6 +15,7 @@ export const PortfolioDataAngular = [{
         classes: 'project-row'
     },
     {
+        lang: 1,
         index: 2,
         animation: 'fade-left',
         title: 'MyTeam',
@@ -20,6 +23,7 @@ export const PortfolioDataAngular = [{
         classes: 'project-row'
     },
     {
+        lang: 1,
         index: 3,
         animation: 'fade-right',
         title: 'PhotoSnap',

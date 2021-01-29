@@ -9,6 +9,8 @@ function FullProject() {
     var param = window.location.pathname;
     var segmArray =param.split('/');
     var index = segmArray.pop();
+    segmArray =param.split('/');
+    var lang= segmArray.pop();
 
 
     useEffect(() => {
@@ -18,7 +20,7 @@ function FullProject() {
     return (
         <div>
              <Navbar />
-            <ProjectFullView index={index}/>
+            <ProjectFullView lang={lang} index={index}/>
             <Cta/>
         </div>
     )

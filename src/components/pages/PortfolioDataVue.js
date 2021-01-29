@@ -1,4 +1,5 @@
 export const PortfolioDataVue = [{
+        lang: 2,
         index: 0,
         animation: 'fade-left',
         title: 'Arch',
@@ -6,6 +7,7 @@ export const PortfolioDataVue = [{
         classes: 'project-row'
     },
     {
+        lang: 2,
         index: 1,
         animation: 'fade-right',
         title: 'PayApi',
@@ -13,6 +15,7 @@ export const PortfolioDataVue = [{
         classes: 'project-row'
     },
     {
+        lang: 2,
         index: 2,
         animation: 'fade-left',
         title: 'MyTeam',
@@ -20,6 +23,7 @@ export const PortfolioDataVue = [{
         classes: 'project-row'
     },
     {
+        lang: 2,
         index: 3,
         animation: 'fade-right',
         title: 'PhotoSnap',

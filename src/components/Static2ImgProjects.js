@@ -10,5 +10,8 @@ import EasyBankStatic2 from './images/portfolio/easybank-static.jpg';
 import ChatAppStatic2 from './images/portfolio/chat-app-static.jpg';
 import DineStatic2 from './images/portfolio/dine-static.jpg';
 import SnapshotStatic2 from './images/detail/snapshotStatic2.jpg';
+import ArchStatic2 from './images/detail/arch-static2.jpg';
+import PayApiStatic2 from './images/detail/PayApi-static2.jpg';
+import MyTeamStatic2 from './images/detail/myteam-static2.jpg';
 
-export { ManageStatic2, BookmarkStatic2, InsureStatic2, IPTrackerStatic, CountriesStatic, CryptoStatic2, CovidStatic2, ScootStatic2, EasyBankStatic2, ChatAppStatic2, DineStatic2, SnapshotStatic2 }
+export { ManageStatic2, BookmarkStatic2, InsureStatic2, IPTrackerStatic, CountriesStatic, CryptoStatic2, CovidStatic2, ScootStatic2, EasyBankStatic2, ChatAppStatic2, DineStatic2, SnapshotStatic2, ArchStatic2, PayApiStatic2, MyTeamStatic2 }

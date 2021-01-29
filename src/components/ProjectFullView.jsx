@@ -19,7 +19,10 @@ import {
     EasyBank,
     ChatApp,
     Dine,
-    PhotoSnap
+    PhotoSnap, 
+    Arch, 
+    MyTeam,
+    PayApi,
 } from './TopImgProjects'
 import {
     ManageStatic,
@@ -32,7 +35,10 @@ import {
     EasyBankStatic1,
     ChatAppStatic1,
     DineStatic1,
-    SnapshotStatic
+    SnapshotStatic,
+    ArchStatic, 
+    MyTeamStatic,
+    PayApiStatic,
 } from './StaticImgProjects'
 import {
     ManageStatic2,
@@ -46,11 +52,36 @@ import {
     EasyBankStatic2,
     ChatAppStatic2,
     DineStatic2,
-    SnapshotStatic2
+    SnapshotStatic2,
+    ArchStatic2, 
+    MyTeamStatic2,
+    PayApiStatic2,
 } from './Static2ImgProjects'
 
 export default function ProjectFullView(props) {
-    const ProjectTopImg = [
+    const ProjectTopImg = [[Arch,
+        PayApi,
+        MyTeam,
+        PhotoSnap,
+        Covid,
+        Crypto,
+        CountriesDictionary,
+        Dine,
+        IPTrackerTop
+    ],[
+        Arch,
+        PayApi,
+        MyTeam,
+        PhotoSnap
+    ],[
+        Arch,
+        PayApi,
+        MyTeam,
+        PhotoSnap
+    ],[
+        Arch,
+        PayApi,
+        MyTeam,
         PhotoSnap,
         Covid,
         Crypto,
@@ -63,8 +94,27 @@ export default function ProjectFullView(props) {
         Scoot,
         EasyBank,
         ChatApp
-    ];
-    const ProjectStaticImg = [
+    ]];
+    const ProjectStaticImg =[[ArchStatic,
+        PayApiStatic,
+        MyTeamStatic,
+        SnapshotStatic,
+        CovidStatic1,
+        CryptoStatic1,
+        CountriesDictionary,
+        DineStatic1,
+        IPTrackerStatic1],
+        [ArchStatic,
+            PayApiStatic,
+            MyTeamStatic,
+            SnapshotStatic,],
+           [ ArchStatic,
+        PayApiStatic,
+        MyTeamStatic,
+        SnapshotStatic],[
+        ArchStatic,
+        PayApiStatic,
+        MyTeamStatic,
         SnapshotStatic,
         CovidStatic1,
         CryptoStatic1,
@@ -77,8 +127,11 @@ export default function ProjectFullView(props) {
         ScootStatic1,
         EasyBankStatic1,
         ChatAppStatic1
-    ];
+    ]];
     const ProjectStaticImg2 = [
+        ArchStatic2,
+        PayApiStatic2,
+        MyTeamStatic2,
         SnapshotStatic2,
         CovidStatic2,
         CryptoStatic2,
@@ -146,7 +199,7 @@ export default function ProjectFullView(props) {
             <Grid container direction='column' className='full-project-cont'>
                 <img
                     className='project-top'
-                    src={ProjectTopImg[props.index]}
+                    src={ProjectTopImg[props.lang][props.index]}
                     alt="project hero"/>
                 <Grid container direction="row" className='description-row'>
                     <Grid item sm={6} xs={12} direction='column' className='left-text'>
@@ -166,7 +219,7 @@ export default function ProjectFullView(props) {
                         <hr/>
                     </Grid>
                     <Grid item sm={6} xs={12} direction='column' className='right-text'>
-                        <Grid container className='text-cont' direction='colum'>
+                        <Grid container className='text-cont' direction='column'>
                             <h3>{PortfolioFullProj[props.index].titleLeft}</h3>
                             <p>{PortfolioFullProj[props.index].textLeft}</p>
                             <h3>{PortfolioFullProj[props.index].staticTitle}</h3>
