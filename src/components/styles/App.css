@@ -310,6 +310,7 @@
 
 .frameworks-cont {
   padding: 5% 7%;
+  text-decoration: none !important;
 }
 
 .frameworks-cont h3 {
@@ -334,176 +335,181 @@
 }
 
 .frameworks-cont p {
+  color: #33323D;
   text-align: center;
   margin-bottom: 10px;
   font-family: "Public Sans", sans-serif;
   font-size: 20px;
 }
 
-.frameworks-cont .react-cont {
+.frameworks-cont .link {
+  text-decoration: none;
+}
+
+.frameworks-cont .link .react-cont {
   padding: 5%;
   border-radius: 20px;
 }
 
-.frameworks-cont .react-cont h3 {
+.frameworks-cont .link .react-cont h3 {
   padding-bottom: 30px;
 }
 
-.frameworks-cont .react-cont h3 .react {
+.frameworks-cont .link .react-cont h3 .react {
   color: #64D4F3;
 }
 
-.frameworks-cont .react-cont p {
+.frameworks-cont .link .react-cont p {
   text-align: center;
   margin-bottom: 10px;
   font-family: "Public Sans", sans-serif;
   font-size: 20px;
 }
 
-.frameworks-cont .react-cont p .font-awe {
+.frameworks-cont .link .react-cont p .font-awe {
   color: #339AF0;
 }
 
-.frameworks-cont .react-cont p .sass {
+.frameworks-cont .link .react-cont p .sass {
   color: #C76494;
 }
 
-.frameworks-cont .react-cont:hover {
+.frameworks-cont .link .react-cont:hover {
   transition: all 0.5s ease-in-out;
   background-color: #64D4F3;
 }
 
-.frameworks-cont .react-cont:hover h3 {
+.frameworks-cont .link .react-cont:hover h3 {
   color: #fafafa;
 }
 
-.frameworks-cont .react-cont:hover h3 .react {
+.frameworks-cont .link .react-cont:hover h3 .react {
   color: #fafafa;
 }
 
-.frameworks-cont .react-cont:hover p {
+.frameworks-cont .link .react-cont:hover p {
   color: #fafafa;
 }
 
-.frameworks-cont .react-cont:hover p .font-awe {
+.frameworks-cont .link .react-cont:hover p .font-awe {
   color: #fafafa;
 }
 
-.frameworks-cont .react-cont:hover p .sass {
+.frameworks-cont .link .react-cont:hover p .sass {
   color: #fafafa;
 }
 
-.frameworks-cont .angular-cont {
+.frameworks-cont .link .angular-cont {
   padding: 5% 7%;
   border-radius: 20px;
 }
 
-.frameworks-cont .angular-cont h3 {
+.frameworks-cont .link .angular-cont h3 {
   padding-bottom: 30px;
 }
 
-.frameworks-cont .angular-cont h3 .angular {
+.frameworks-cont .link .angular-cont h3 .angular {
   color: #C3002F;
 }
 
-.frameworks-cont .angular-cont p {
+.frameworks-cont .link .angular-cont p {
   text-align: center;
   margin-bottom: 10px;
   font-family: "Public Sans", sans-serif;
   font-size: 20px;
 }
 
-.frameworks-cont .angular-cont p .font-awe {
+.frameworks-cont .link .angular-cont p .font-awe {
   color: #339AF0;
 }
 
-.frameworks-cont .angular-cont p .sass {
+.frameworks-cont .link .angular-cont p .sass {
   color: #C76494;
 }
 
-.frameworks-cont .angular-cont:hover {
+.frameworks-cont .link .angular-cont:hover {
   transition: all 0.5s ease-in-out;
   background-color: #C3002F;
 }
 
-.frameworks-cont .angular-cont:hover h3 {
+.frameworks-cont .link .angular-cont:hover h3 {
   color: #fafafa;
 }
 
-.frameworks-cont .angular-cont:hover h3 .angular {
+.frameworks-cont .link .angular-cont:hover h3 .angular {
   color: #fafafa;
 }
 
-.frameworks-cont .angular-cont:hover p {
+.frameworks-cont .link .angular-cont:hover p {
   color: #fafafa;
 }
 
-.frameworks-cont .angular-cont:hover p .font-awe {
+.frameworks-cont .link .angular-cont:hover p .font-awe {
   color: #fafafa;
 }
 
-.frameworks-cont .angular-cont:hover p .sass {
+.frameworks-cont .link .angular-cont:hover p .sass {
   color: #fafafa;
 }
 
-.frameworks-cont .vue-cont {
+.frameworks-cont .link .vue-cont {
   padding: 5% 7%;
   border-radius: 20px;
 }
 
-.frameworks-cont .vue-cont h3 {
+.frameworks-cont .link .vue-cont h3 {
   padding-bottom: 30px;
 }
 
-.frameworks-cont .vue-cont h3 .vue {
+.frameworks-cont .link .vue-cont h3 .vue {
   color: #4DBA87;
 }
 
-.frameworks-cont .vue-cont p {
+.frameworks-cont .link .vue-cont p {
   text-align: center;
   margin-bottom: 10px;
   font-family: "Public Sans", sans-serif;
   font-size: 20px;
 }
 
-.frameworks-cont .vue-cont p .boots {
+.frameworks-cont .link .vue-cont p .boots {
   color: #7A10F2;
 }
 
-.frameworks-cont .vue-cont p .font-awe {
+.frameworks-cont .link .vue-cont p .font-awe {
   color: #339AF0;
 }
 
-.frameworks-cont .vue-cont p .css {
+.frameworks-cont .link .vue-cont p .css {
   color: #2173F7;
 }
 
-.frameworks-cont .vue-cont:hover {
+.frameworks-cont .link .vue-cont:hover {
   transition: all 0.5s ease-in-out;
   background-color: #4DBA87;
 }
 
-.frameworks-cont .vue-cont:hover h3 {
+.frameworks-cont .link .vue-cont:hover h3 {
   color: #fafafa;
 }
 
-.frameworks-cont .vue-cont:hover h3 .vue {
+.frameworks-cont .link .vue-cont:hover h3 .vue {
   color: #fafafa;
 }
 
-.frameworks-cont .vue-cont:hover p {
+.frameworks-cont .link .vue-cont:hover p {
   color: #fafafa;
 }
 
-.frameworks-cont .vue-cont:hover p .font-awe {
+.frameworks-cont .link .vue-cont:hover p .font-awe {
   color: #fafafa;
 }
 
-.frameworks-cont .vue-cont:hover p .css {
+.frameworks-cont .link .vue-cont:hover p .css {
   color: #fafafa;
 }
 
-.frameworks-cont .vue-cont:hover p .boots {
+.frameworks-cont .link .vue-cont:hover p .boots {
   color: #fafafa;
 }
 

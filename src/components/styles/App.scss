@@ -288,6 +288,7 @@ $font-weight7: 700;
 //----------------------Frameworks section------------------
 .frameworks-cont {
     padding: 5% 7%;
+    text-decoration: none !important;
     h3 {
         font-family: $font-heading;
         font-size: 40px;
@@ -306,136 +307,140 @@ $font-weight7: 700;
         }
     }
     p {
+        color: $grayish-dark-blue;
         text-align: center;
         margin-bottom: 10px;
         font-family: $font-body;
         font-size: 20px;
     }
-    .react-cont {
-        padding: 5%;
-        border-radius: 20px;
-        h3 {
-            padding-bottom: 30px;
-            .react {
-                color: #64D4F3;
-            }
-        }
-        p {
-            text-align: center;
-            margin-bottom: 10px;
-            font-family: $font-body;
-            font-size: 20px;
-            .font-awe {
-                color: #339AF0;
-            }
-            .sass {
-                color: #C76494;
-            }
-        }
-        &:hover {
-            transition: all 0.5s ease-in-out;
-            background-color: #64D4F3;
+    .link {
+        text-decoration: none;
+        .react-cont {
+            padding: 5%;
+            border-radius: 20px;
             h3 {
-                color: $very-light-grey;
+                padding-bottom: 30px;
                 .react {
-                    color: $very-light-grey;
+                    color: #64D4F3;
                 }
             }
             p {
-                color: $very-light-grey;
+                text-align: center;
+                margin-bottom: 10px;
+                font-family: $font-body;
+                font-size: 20px;
                 .font-awe {
-                    color: $very-light-grey;
+                    color: #339AF0;
                 }
                 .sass {
+                    color: #C76494;
+                }
+            }
+            &:hover {
+                transition: all 0.5s ease-in-out;
+                background-color: #64D4F3;
+                h3 {
                     color: $very-light-grey;
+                    .react {
+                        color: $very-light-grey;
+                    }
+                }
+                p {
+                    color: $very-light-grey;
+                    .font-awe {
+                        color: $very-light-grey;
+                    }
+                    .sass {
+                        color: $very-light-grey;
+                    }
                 }
             }
         }
-    }
-    .angular-cont {
-        padding: 5% 7%;
-        border-radius: 20px;
-        h3 {
-            padding-bottom: 30px;
-            .angular {
-                color: #C3002F;
-            }
-        }
-        p {
-            text-align: center;
-            margin-bottom: 10px;
-            font-family: $font-body;
-            font-size: 20px;
-            .font-awe {
-                color: #339AF0;
-            }
-            .sass {
-                color: #C76494;
-            }
-        }
-        &:hover {
-            transition: all 0.5s ease-in-out;
-            background-color: #C3002F;
+        .angular-cont {
+            padding: 5% 7%;
+            border-radius: 20px;
             h3 {
-                color: $very-light-grey;
+                padding-bottom: 30px;
                 .angular {
-                    color: $very-light-grey;
+                    color: #C3002F;
                 }
             }
             p {
-                color: $very-light-grey;
+                text-align: center;
+                margin-bottom: 10px;
+                font-family: $font-body;
+                font-size: 20px;
                 .font-awe {
-                    color: $very-light-grey;
+                    color: #339AF0;
                 }
                 .sass {
+                    color: #C76494;
+                }
+            }
+            &:hover {
+                transition: all 0.5s ease-in-out;
+                background-color: #C3002F;
+                h3 {
                     color: $very-light-grey;
+                    .angular {
+                        color: $very-light-grey;
+                    }
+                }
+                p {
+                    color: $very-light-grey;
+                    .font-awe {
+                        color: $very-light-grey;
+                    }
+                    .sass {
+                        color: $very-light-grey;
+                    }
                 }
             }
         }
-    }
-    .vue-cont {
-        padding: 5% 7%;
-        border-radius: 20px;
-        h3 {
-            padding-bottom: 30px;
-            .vue {
-                color: #4DBA87;
-            }
-        }
-        p {
-            text-align: center;
-            margin-bottom: 10px;
-            font-family: $font-body;
-            font-size: 20px;
-            .boots {
-                color: #7A10F2;
-            }
-            .font-awe {
-                color: #339AF0;
-            }
-            .css {
-                color: #2173F7;
-            }
-        }
-        &:hover {
-            transition: all 0.5s ease-in-out;
-            background-color: #4DBA87;
+        .vue-cont {
+            padding: 5% 7%;
+            border-radius: 20px;
             h3 {
-                color: $very-light-grey;
+                padding-bottom: 30px;
                 .vue {
-                    color: $very-light-grey;
+                    color: #4DBA87;
                 }
             }
             p {
-                color: $very-light-grey;
+                text-align: center;
+                margin-bottom: 10px;
+                font-family: $font-body;
+                font-size: 20px;
+                .boots {
+                    color: #7A10F2;
+                }
                 .font-awe {
-                    color: $very-light-grey;
+                    color: #339AF0;
                 }
                 .css {
-                    color: $very-light-grey;
+                    color: #2173F7;
                 }
-                .boots {
+            }
+            &:hover {
+                transition: all 0.5s ease-in-out;
+                background-color: #4DBA87;
+                h3 {
                     color: $very-light-grey;
+                    .vue {
+                        color: $very-light-grey;
+                    }
+                }
+                p {
+                    color: $very-light-grey;
+                    .font-awe {
+                        color: $very-light-grey;
+                    }
+                    .css {
+                        color: $very-light-grey;
+                    }
+                    .boots {
+                        color: $very-light-grey;
+                    }
                 }
             }
         }
