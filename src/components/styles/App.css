@@ -217,6 +217,97 @@
   }
 }
 
+.languages-cont {
+  background-color: #33607f;
+  padding: 5% 7%;
+}
+
+.languages-cont h3 {
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #5fb4a2;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.languages-cont .icons-row {
+  margin-bottom: 20px;
+  padding: 3% 0;
+  text-align: center;
+  color: #c4ffef;
+}
+
+.languages-cont .icons-row .react:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 0.5s ease-out;
+  color: #64D4F3;
+}
+
+.languages-cont .icons-row .angular:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 0.5s ease-out;
+  color: #C3002F;
+}
+
+.languages-cont .icons-row .vue:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 0.5s ease-out;
+  color: #4DBA87;
+}
+
+.languages-cont .icons-row .javascript:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 0.5s ease-out;
+  color: #FCE41F;
+}
+
+.languages-cont .icons-row .css:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 0.5s ease-out;
+  color: #2173F7;
+}
+
+.languages-cont .icons-row .html:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 0.5s ease-out;
+  color: #F74E0D;
+}
+
+.languages-cont .icons-row .sass:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 0.5s ease-out;
+  color: #C76494;
+}
+
+.languages-cont .icons-row .boots:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 0.5s ease-out;
+  color: #7A10F2;
+}
+
+.languages-cont .icons-row .npm:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 0.5s ease-out;
+  color: #C13535;
+}
+
+.languages-cont .icons-row .git:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 0.5s ease-out;
+  color: #302F2F;
+}
+
 .project-row {
   padding: 5% 7%;
   height: fit-content;

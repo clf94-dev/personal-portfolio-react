@@ -205,6 +205,86 @@ $font-weight7: 700;
     }
 }
 
+//----------------------Languages Section------------------
+.languages-cont {
+    background-color: rgb(51, 96, 127);
+    padding: 5% 7%;
+    h3 {
+        font-family: $font-heading;
+        font-size: 40px;
+        font-weight: $font-weight6;
+        color: $desaturated-cyan;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .icons-row {
+        margin-bottom: 20px;
+        padding: 3% 0;
+        text-align: center;
+        color: rgb(196, 255, 239);
+        .react:hover {
+            cursor: pointer;
+            transform: scale(1.2);
+            transition: all 0.5s ease-out;
+            color: #64D4F3;
+        }
+        .angular:hover {
+            cursor: pointer;
+            transform: scale(1.2);
+            transition: all 0.5s ease-out;
+            color: #C3002F;
+        }
+        .vue:hover {
+            cursor: pointer;
+            transform: scale(1.2);
+            transition: all 0.5s ease-out;
+            color: #4DBA87;
+        }
+        .javascript:hover {
+            cursor: pointer;
+            transform: scale(1.2);
+            transition: all 0.5s ease-out;
+            color: #FCE41F;
+        }
+        .css:hover {
+            cursor: pointer;
+            transform: scale(1.2);
+            transition: all 0.5s ease-out;
+            color: #2173F7;
+        }
+        .html:hover {
+            cursor: pointer;
+            transform: scale(1.2);
+            transition: all 0.5s ease-out;
+            color: #F74E0D;
+        }
+        .sass:hover {
+            cursor: pointer;
+            transform: scale(1.2);
+            transition: all 0.5s ease-out;
+            color: #C76494;
+        }
+        .boots:hover {
+            cursor: pointer;
+            transform: scale(1.2);
+            transition: all 0.5s ease-out;
+            color: #7A10F2;
+        }
+        .npm:hover {
+            cursor: pointer;
+            transform: scale(1.2);
+            transition: all 0.5s ease-out;
+            color: #C13535;
+        }
+        .git:hover {
+            cursor: pointer;
+            transform: scale(1.2);
+            transition: all 0.5s ease-out;
+            color: #302F2F;
+        }
+    }
+}
+
 //----------------------Portofolio Rows-----------------
 .project-row {
     padding: 5% 7%;
