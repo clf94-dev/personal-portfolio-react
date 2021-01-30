@@ -633,6 +633,28 @@
   }
 }
 
+.full-project-cont .description-row .left-text i {
+  position: relative;
+  top: 12px;
+  left: 15px;
+}
+
+.full-project-cont .description-row .left-text i.react {
+  color: #64D4F3;
+}
+
+.full-project-cont .description-row .left-text i.vue {
+  color: #4DBA87;
+}
+
+.full-project-cont .description-row .left-text i.angular {
+  color: #C3002F;
+}
+
+.full-project-cont .description-row .left-text i.javas {
+  color: #FCE41F;
+}
+
 .full-project-cont .description-row .right-text {
   margin-top: 4%;
 }

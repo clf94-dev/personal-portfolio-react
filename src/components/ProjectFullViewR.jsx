@@ -88,23 +88,34 @@ export default function ProjectFullViewR(props) {
         DineStatic2,
         IPTrackerStatic];
     const previousProject = [8,0,1,2,3,4,5,6,7];
-    const webLinks = [
+    const webLinks = [[
+        "https://arch-web-clf94-dev.netlify.app",
+        "https://pay-api-clf94-dev.netlify.app",
+        "https://myteam-clf94-dev.netlify.app",
         "https://snapshot-web-clf94-dev.netlify.app",
         "https://covid-19-tracker-clf94-dev.netlify.app/",
         "https://crypto-price-eur-usd-tracker-clf94-dev.netlify.app/",
         "https://countries-info-api-clf94-dev.netlify.app/",
-        'https://dine-restaurant-clf94-dev.netlify.app/',
-        "https://ip-address-tracker-clf94-dev.netlify.app/",
-        "https://manage-landing-page-26jdlsq2z.vercel.app/",
-        "https://booking-landing-page.vercel.app/",
-        "https://insure-landing-page-gegnuifr6.vercel.app/",
-        "https://scoot-multi-page-website-git-master.clf94-dev.vercel.app/",
-        "https://easybank-landing-page-git-master.clf94-dev.vercel.app/",
-        "https://chat-app-landing-page-git-master.clf94-dev.vercel.app/"
-    ]
+       ],
+        ["https://arch-angular-clf94-dev.netlify.app",
+        "https://payapi-angular-clf94-dev.netlify.app",
+        "https://myteam-angular-clf94-dev.netlify.app",
+        "https://photosnap-angular-clf94-dev.netlify.app",
+        "",
+        "",
+        ""
+        ],[
+        "https://arch-vue-clf94-dev.netlify.app",
+        "https://payapi-vue-clf94-dev.netlify.app",
+        "https://vue-myteam-clf94-dev.netlify.app",
+        "https://photosnap-vue-clf94-dev.netlify.app",
+        "",
+        "",
+        ""
+    ]]
     const nextProject = [1,2,3,4,5,6,7,8,0];
 
-    var lang = props.lang;
+   
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
@@ -125,13 +136,34 @@ export default function ProjectFullViewR(props) {
                         <h5>{PortfolioFullProj[props.index].designType}</h5>
                         <h5>{PortfolioFullProj[props.index].languages}</h5>
 
-                        <a href={webLinks[props.index]}>
-                            <button className='project-btn' link={webLinks[props.index]}>
+                        <a href={webLinks[0][props.index]}>
+                            <button className='project-btn' link={webLinks[0][props.index]}>
 
                                 VIEW WEBSITE
 
                             </button>
                         </a>
+                        <i className='fab fa-3x fa-react react'></i>
+                        <div style={{display: !webLinks[1][props.index] && 'none'}}>
+                        
+                        <a href={webLinks[1][props.index]}>
+                            <button className='project-btn' link={webLinks[1][props.index]}>
+
+                                VIEW WEBSITE
+
+                            </button>
+                        </a><i className='fab fa-3x fa-angular angular'></i>
+                        </div>
+                        <div style={{display: !webLinks[2][props.index] && 'none'}}>
+                        
+                        <a href={webLinks[2][props.index]}>
+                            <button className='project-btn' link={webLinks[2][props.index]}>
+
+                                VIEW WEBSITE
+
+                            </button>
+                        </a><i className='fab fa-3x fa-vuejs vue'></i>
+                        </div>
                         <hr/>
                     </Grid>
                     <Grid item sm={6} xs={12} direction='column' className='right-text'>

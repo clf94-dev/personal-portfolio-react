@@ -551,6 +551,23 @@ $font-weight7: 700;
                     }
                 }
             }
+            i {
+                position: relative;
+                top: 12px;
+                left: 15px;
+                &.react {
+                    color: #64D4F3;
+                }
+                &.vue {
+                    color: #4DBA87;
+                }
+                &.angular {
+                    color: #C3002F;
+                }
+                &.javas {
+                    color: #FCE41F;
+                }
+            }
         }
         .right-text {
             margin-top: 4%;
