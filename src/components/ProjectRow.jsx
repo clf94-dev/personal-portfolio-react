@@ -11,7 +11,7 @@ import 'aos/dist/aos.css';
 AOS.init();
 
 function ProjectRow(props) {
-    const ProjectsImg = [PhotoSnap ,Covid, Crypto, CountriesDictionary, Dine  ,IPTrackerTop ,Manage, Bookmark, Insure,Scoot, EasyBank, ChatApp];
+    const ProjectsImg = [Arch, PayApi, MyTeam,PhotoSnap ,Covid, Crypto, CountriesDictionary, Dine  ,IPTrackerTop ,Manage, Bookmark, Insure,Scoot, EasyBank, ChatApp];
     return (
         <div>
             <Grid container direction="row" className={props.classes} data-aos={props.animation} data-aos-duration="1200">

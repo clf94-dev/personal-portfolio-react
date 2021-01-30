@@ -107,7 +107,7 @@ export default function ProjectFullView(props) {
         [ArchStatic,
             PayApiStatic,
             MyTeamStatic,
-            SnapshotStatic,],
+            SnapshotStatic],
            [ ArchStatic,
         PayApiStatic,
         MyTeamStatic,
@@ -128,7 +128,23 @@ export default function ProjectFullView(props) {
         EasyBankStatic1,
         ChatAppStatic1
     ]];
-    const ProjectStaticImg2 = [
+    const ProjectStaticImg2 = [[ArchStatic2,
+        PayApiStatic2,
+        MyTeamStatic2,
+        SnapshotStatic2,
+        CovidStatic2,
+        CryptoStatic2,
+        CountriesStatic,
+        DineStatic2,
+        IPTrackerStatic],
+        [ArchStatic2,
+            PayApiStatic2,
+            MyTeamStatic2,
+            SnapshotStatic2],
+        [ArchStatic2,
+            PayApiStatic2,
+            MyTeamStatic2,
+            SnapshotStatic2],[
         ArchStatic2,
         PayApiStatic2,
         MyTeamStatic2,
@@ -144,9 +160,9 @@ export default function ProjectFullView(props) {
         ScootStatic2,
         EasyBankStatic2,
         ChatAppStatic2
-    ];
-    const previousProject = [
-        6,
+    ]];
+    const previousProject = [[8,0,1,2,3,4,5,6,7],[3,0,1,2],[3,0,1,2],[
+        14,
         0,
         1,
         2,
@@ -158,8 +174,10 @@ export default function ProjectFullView(props) {
         8,
         9,
         10,
-        11
-    ];
+        11,
+        12,
+        13
+    ]];
     const webLinks = [
         "https://snapshot-web-clf94-dev.netlify.app",
         "https://covid-19-tracker-clf94-dev.netlify.app/",
@@ -174,7 +192,7 @@ export default function ProjectFullView(props) {
         "https://easybank-landing-page-git-master.clf94-dev.vercel.app/",
         "https://chat-app-landing-page-git-master.clf94-dev.vercel.app/"
     ]
-    const nextProject = [
+    const nextProject = [[1,2,3,4,5,6,7,8,0],[1,2,3,0],[1,2,3,0],[
         1,
         2,
         3,
@@ -186,9 +204,13 @@ export default function ProjectFullView(props) {
         9,
         10,
         11,
-        0
+        12,
+        13,
+        14,
+        0]
     ];
 
+    var lang = props.lang;
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
@@ -199,7 +221,7 @@ export default function ProjectFullView(props) {
             <Grid container direction='column' className='full-project-cont'>
                 <img
                     className='project-top'
-                    src={ProjectTopImg[props.lang][props.index]}
+                    src={ProjectTopImg[lang][props.index]}
                     alt="project hero"/>
                 <Grid container direction="row" className='description-row'>
                     <Grid item sm={6} xs={12} direction='column' className='left-text'>
@@ -224,8 +246,8 @@ export default function ProjectFullView(props) {
                             <p>{PortfolioFullProj[props.index].textLeft}</p>
                             <h3>{PortfolioFullProj[props.index].staticTitle}</h3>
                         </Grid>
-                        <img src={ProjectStaticImg[props.index]} alt="static preview 1"/>
-                        <img src={ProjectStaticImg2[props.index]} alt="static preview 2"/>
+                        <img src={ProjectStaticImg[lang][props.index]} alt="static preview 1"/>
+                        <img src={ProjectStaticImg2[lang][props.index]} alt="static preview 2"/>
                     </Grid>
                 </Grid>
 
@@ -235,11 +257,11 @@ export default function ProjectFullView(props) {
                             <Grid item md={2} xs={4} direction='column'>
                                 <Button
                                     buttonStyle='btn--outline'
-                                    link={`/full-project/${previousProject[props.index]}`}><img className='previous-next-btn' src={ArrowLeft} alt="arrow left"/></Button>
+                                    link={`/full-project/${lang}/${previousProject[lang][props.index]}`}><img className='previous-next-btn' src={ArrowLeft} alt="arrow left"/></Button>
                             </Grid>
                             <Grid item md={10} xs={8} direction='column' className='previous-text'>
                                 <h5>Previous Project</h5>
-                                <h3>{PortfolioFullProj[previousProject[props.index]].titleRight}</h3>
+                                <h3>{PortfolioFullProj[previousProject[lang][props.index]].titleRight}</h3>
 
                             </Grid>
                         </Grid>
@@ -249,7 +271,7 @@ export default function ProjectFullView(props) {
                             <Grid item md={10} xs={8} direction='column' className='next-text'>
                                 <h5>Next Project</h5>
 
-                                <h3>{PortfolioFullProj[nextProject[props.index]].titleRight}</h3>
+                                <h3>{PortfolioFullProj[nextProject[lang][props.index]].titleRight}</h3>
 
                             </Grid>
                             <Grid
@@ -262,7 +284,7 @@ export default function ProjectFullView(props) {
                             }}>
                                 <Button
                                     buttonStyle='btn--outline'
-                                    link={`/full-project/${nextProject[props.index]}`}><img className='previous-next-btn' src={ArrowRight} alt="arrow right"/></Button>
+                                    link={`/full-project/${lang}/${nextProject[lang][props.index]}`}><img className='previous-next-btn' src={ArrowRight} alt="arrow right"/></Button>
                             </Grid>
                         </Grid>
                     </Grid>
