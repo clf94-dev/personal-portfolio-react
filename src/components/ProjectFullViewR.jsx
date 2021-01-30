@@ -133,6 +133,8 @@ export default function ProjectFullViewR(props) {
                         <hr/>
                         <h2>{PortfolioFullProj[props.index].titleRight}</h2>
                         <p>{PortfolioFullProj[props.index].textRight}</p>
+                        <p>{PortfolioFullProj[props.index].angularText}</p>
+                        <p>{PortfolioFullProj[props.index].vueText}</p>
                         <h5>{PortfolioFullProj[props.index].designType}</h5>
                         <h5>{PortfolioFullProj[props.index].languages}</h5>
 

@@ -3,21 +3,21 @@ export const PortfolioDataReact = [{
         animation: 'fade-left',
         title: 'Arch',
         text: 'This project required me to build a fully responsive multi-page website. I used React along with Material UIs grid sytem, CSS/Sass , useState/useEffect hooks and scroll animations from AOS library.',
-        classes: 'project-row'
+        classes: 'project-row reverse'
     },
     {
         index: 1,
         animation: 'fade-right',
         title: 'PayApi',
         text: 'This project required me to build a fully responsive multi-page website. I used React along with Material UIs grid sytem, CSS/Sass , useState/useEffect hooks and scroll animations from AOS library.',
-        classes: 'project-row'
+        classes: 'project-row '
     },
     {
         index: 2,
         animation: 'fade-left',
         title: 'MyTeam',
         text: 'This project required me to build a fully responsive multi-page website. I used React along with Material UIs grid sytem, CSS/Sass , useState/useEffect hooks and scroll animations from AOS library.',
-        classes: 'project-row'
+        classes: 'project-row reverse'
     },
     {
         index: 3,

@@ -3,7 +3,7 @@ export const PortfolioDataAngular = [{
         animation: 'fade-left',
         title: 'Arch',
         text: "This project required me to build a fully responsive multi-page website. I used Angular along with Angular's Material and Flex-Layout libraries for the grid sytem, CSS/Sass , fontawesome icons and scroll animations from AOS library.",
-        classes: 'project-row'
+        classes: 'project-row reverse'
     },
     {
         index: 1,
@@ -17,7 +17,7 @@ export const PortfolioDataAngular = [{
         animation: 'fade-left',
         title: 'MyTeam',
         text: "This project required me to build a fully responsive multi-page website. I used Angular along with Angular's grid sytem, CSS/Sass , fontawesome icons and scroll animations from AOS library.",
-        classes: 'project-row'
+        classes: 'project-row reverse'
     },
     {
         index: 3,

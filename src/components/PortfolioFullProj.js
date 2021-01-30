@@ -47,7 +47,7 @@ export const PortfolioFullProj = [{
 
     }, {
         index: 3,
-        titleRight: 'Snapshot ',
+        titleRight: 'PhotoSnap ',
         textRight: 'This project required me to build a fully responsive multi-page website. I used React along with Material UIs grid sytem, CSS/Sass , useState/useEffect hooks and scroll animations from AOS library.',
         angularText: "I used Angular along with Angular's grid sytem, CSS/Sass , fontawesome icons and scroll animations from AOS library.",
         vueText: "I used Vue along with Bootstrap's grid sytem, CSS/Sass , vue-router, fontawesome icons and scroll animations from AOS library.",
