@@ -26,7 +26,7 @@ function ProjectRow(props) {
                     <p>{props.text}</p>
                     <Button
                         className='project-btn'
-                        link={`/full-project/${props.lang}/${props.index}`}
+                        link={`/full-project/${props.index}`}
                         buttonStyle='btn--outline'
                         buttonSize='btn--large'>
                         VIEW PROJECT

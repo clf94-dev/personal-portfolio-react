@@ -28,11 +28,13 @@ export const PortfolioFullProj = [{
     },
     {
         index: 2,
-        titleRight: 'Snapshot ',
+        titleRight: 'MyTeam',
         textRight: 'This project required me to build a fully responsive multi-page website. I used React along with Material UIs grid sytem, CSS/Sass , useState/useEffect hooks and scroll animations from AOS library.',
         designType: 'Interaction Design / Front End Development',
-        languages: 'React / Material UI / Router / Sass ',
+        languages: 'React / Material UI / Angular / Vue / Bootstrap / Sass ',
         link: "https://snapshot-web-clf94-dev.netlify.app",
+        link2: "https://snapshot-web-clf94-dev.netlify.app",
+        link3: "https://snapshot-web-clf94-dev.netlify.app",
         titleLeft: 'Project Background',
         textLeft: "This project was a front-end challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.",
         staticTitle: 'Static Previews'
@@ -42,8 +44,10 @@ export const PortfolioFullProj = [{
         titleRight: 'Snapshot ',
         textRight: 'This project required me to build a fully responsive multi-page website. I used React along with Material UIs grid sytem, CSS/Sass , useState/useEffect hooks and scroll animations from AOS library.',
         designType: 'Interaction Design / Front End Development',
-        languages: 'React / Material UI / Router / Sass ',
+        languages: 'React / Material UI / Angular / Vue / Bootstrap / Sass ',
         link: "https://snapshot-web-clf94-dev.netlify.app",
+        link2: "https://snapshot-web-clf94-dev.netlify.app",
+        link3: "https://snapshot-web-clf94-dev.netlify.app",
         titleLeft: 'Project Background',
         textLeft: "This project was a front-end challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.",
         staticTitle: 'Static Previews'
@@ -56,6 +60,8 @@ export const PortfolioFullProj = [{
         designType: 'Interaction Design / Front End Development',
         languages: 'React / Material UI / API / Sass ',
         link: "https://covid-19-tracker-clf94-dev.netlify.app/",
+        link2: '',
+        link3: '',
         titleLeft: 'Project Background',
         textLeft: 'This project was a simple looking React front-end challenge i did so i could practice API request. ',
         staticTitle: 'Static Previews'
@@ -67,6 +73,8 @@ export const PortfolioFullProj = [{
         designType: 'Interaction Design / Front End Development',
         languages: 'React / Material UI / API / Sass ',
         link: "https://crypto-price-eur-usd-tracker-clf94-dev.netlify.app/",
+        link2: '',
+        link3: '',
         titleLeft: 'Project Background',
 
         textLeft: 'This project was a simple looking React front-end challenge i did so i could practice API requests.  ',
@@ -80,6 +88,8 @@ export const PortfolioFullProj = [{
         designType: 'Interaction Design / Front End Development',
         languages: 'React / Material UI / Router / API / Sass /  ',
         link: "https://countries-info-api-clf94-dev.netlify.app/",
+        link2: '',
+        link3: '',
         titleLeft: 'Project Background',
         textLeft: 'This project was a simple looking React front-end challenge i did so i could practice API requests, scroll animations and Router for connecting pages.',
         staticTitle: 'Static Previews'
@@ -92,6 +102,8 @@ export const PortfolioFullProj = [{
         designType: 'Interaction Design / Front End Development',
         languages: 'React / Material UI / Router/ AOS Animation / Sass ',
         link: 'https://dine-restaurant-clf94-dev.netlify.app/',
+        link2: '',
+        link3: '',
         titleLeft: 'Project Background',
         textLeft: "This project was a front-end challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.",
         staticTitle: 'Static Previews'
@@ -104,6 +116,8 @@ export const PortfolioFullProj = [{
         designType: 'Interaction Design / Front End Development',
         languages: 'React / Material UI / API / Map / Sass',
         link: 'https://ip-address-tracker-clf94-dev.netlify.app/',
+        link2: '',
+        link3: '',
         titleLeft: 'Project Background',
         textLeft: "This project was a front-end challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.",
         staticTitle: 'Static Previews'
@@ -114,6 +128,8 @@ export const PortfolioFullProj = [{
         designType: 'Interaction Design / Front End Development',
         languages: 'HTML / CSS / Bootstrap / JS',
         link: 'https://manage-landing-page-26jdlsq2z.vercel.app/',
+        link2: '',
+        link3: '',
         titleLeft: 'Project Background',
         textLeft: 'This project was a front-end challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should' +
             'look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.',
@@ -128,6 +144,8 @@ export const PortfolioFullProj = [{
         designType: 'Interaction Design / Front End Development',
         languages: 'HTML / CSS / Bootstrap / JS / JQuery',
         link: 'https://booking-landing-page-m8m2z92oo.vercel.app/',
+        link2: '',
+        link3: '',
         titleLeft: 'Project Background',
 
         textLeft: 'This project was a front-end challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should' +
@@ -142,6 +160,8 @@ export const PortfolioFullProj = [{
         designType: 'Interaction Design / Front End Development',
         languages: 'HTML / CSS / Bootstrap / JS',
         link: 'https://insure-landing-page-gegnuifr6.vercel.app/',
+        link2: '',
+        link3: '',
         titleLeft: 'Project Background',
         textLeft: 'This project was a front-end challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should' +
             'look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.',
@@ -154,6 +174,8 @@ export const PortfolioFullProj = [{
         designType: 'Interaction Design / Front End Development',
         languages: 'HTML / CSS / Bootstrap / Sass / JS',
         link: 'https://scoot-multi-page-website-git-master.clf94-dev.vercel.app/',
+        link2: '',
+        link3: '',
         titleLeft: 'Project Background',
         textLeft: "This project was a front-end challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.",
         staticTitle: 'Static Previews'
@@ -165,6 +187,8 @@ export const PortfolioFullProj = [{
         designType: 'Interaction Design / Front End Development',
         languages: 'HTML / CSS / Bootstrap / Sass / JS',
         link: 'https://easybank-landing-page-git-master.clf94-dev.vercel.app/',
+        link2: '',
+        link3: '',
         titleLeft: 'Project Background',
         textLeft: "This project was a front-end challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.",
         staticTitle: 'Static Previews'
@@ -176,6 +200,8 @@ export const PortfolioFullProj = [{
         designType: 'Interaction Design / Front End Development',
         languages: 'HTML / CSS / Bootstrap / Sass / JS',
         link: 'https://chat-app-landing-page-git-master.clf94-dev.vercel.app/',
+        link2: '',
+        link3: '',
         titleLeft: 'Project Background',
         textLeft: "This project was a front-end challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.",
         staticTitle: 'Static Previews'

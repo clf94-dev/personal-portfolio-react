@@ -1,5 +1,4 @@
 export const PortfolioDataReact = [{
-        lang: 0,
         index: 0,
         animation: 'fade-left',
         title: 'Arch',
@@ -7,7 +6,6 @@ export const PortfolioDataReact = [{
         classes: 'project-row'
     },
     {
-        lang: 0,
         index: 1,
         animation: 'fade-right',
         title: 'PayApi',
@@ -15,7 +13,6 @@ export const PortfolioDataReact = [{
         classes: 'project-row'
     },
     {
-        lang: 0,
         index: 2,
         animation: 'fade-left',
         title: 'MyTeam',
@@ -23,21 +20,18 @@ export const PortfolioDataReact = [{
         classes: 'project-row'
     },
     {
-        lang: 0,
         index: 3,
         animation: 'fade-right',
         title: 'PhotoSnap',
         text: 'This project required me to build a fully responsive multi-page website. I used React along with Material UIs grid sytem, CSS/Sass , useState/useEffect hooks and scroll animations from AOS library.',
         classes: 'project-row'
     }, {
-        lang: 0,
         index: 4,
         animation: 'fade-left',
         title: 'COVID-19 Tracker ',
         text: 'This project required me to build a fully responsive page that displays live data from an API. I used React along with Material UIs grid sytem, CSS/Sass , useState/useEffect hooks and scroll animations from AOS library. The data can be filtered by country name',
         classes: 'project-row  reverse centered'
     }, {
-        lang: 0,
         index: 5,
         animation: 'fade-right',
         title: 'Crypto Currency Tracker ',
@@ -45,21 +39,18 @@ export const PortfolioDataReact = [{
         classes: 'project-row  centered'
     },
     {
-        lang: 0,
         index: 6,
         animation: 'fade-left',
         title: 'Countries Dictionary ',
         text: "This project required me to build a fully responsive two page website that displays countries's general information from an API. I used React along with Material UIs grid sytem, CSS/Sass , useState/useEffect hooks and scroll animations from AOS library. The data can be filtered by country name and the theme of the page can be change to a dark mode theme",
         classes: 'project-row reverse centered'
     }, {
-        lang: 0,
         index: 7,
         animation: 'fade-right',
         title: 'Dine',
         text: 'This project required me to build a fully responsive two-page website. I used React along with Material UIs grid sytem, CSS/Sass , useState/useEffect hooks and scroll animations from AOS library.',
         classes: 'project-row'
     }, {
-        lang: 0,
         index: 8,
         animation: 'fade-left',
         title: 'IP tracker ',

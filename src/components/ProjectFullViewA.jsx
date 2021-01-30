@@ -58,75 +58,24 @@ import {
     PayApiStatic2,
 } from './Static2ImgProjects'
 
-export default function ProjectFullView(props) {
+export default function ProjectFullViewA(props) {
     const ProjectTopImg = [
         Arch,
         PayApi,
         MyTeam,
-        PhotoSnap,
-        Covid,
-        Crypto,
-        CountriesDictionary,
-        Dine,
-        IPTrackerTop,
-        Manage,
-        Bookmark,
-        Insure,
-        Scoot,
-        EasyBank,
-        ChatApp
+        PhotoSnap
     ];
-    const ProjectStaticImg =[
-        ArchStatic,
-        PayApiStatic,
-        MyTeamStatic,
-        SnapshotStatic,
-        CovidStatic1,
-        CryptoStatic1,
-        CountriesDictionary,
-        DineStatic1,
-        IPTrackerStatic1,
-        ManageStatic,
-        BookmarkStatic,
-        InsureStatic,
-        ScootStatic1,
-        EasyBankStatic1,
-        ChatAppStatic1
-    ];
-    const ProjectStaticImg2 = [
-        ArchStatic2,
-        PayApiStatic2,
-        MyTeamStatic2,
-        SnapshotStatic2,
-        CovidStatic2,
-        CryptoStatic2,
-        CountriesStatic,
-        DineStatic2,
-        IPTrackerStatic,
-        ManageStatic2,
-        BookmarkStatic2,
-        InsureStatic2,
-        ScootStatic2,
-        EasyBankStatic2,
-        ChatAppStatic2
-    ];
-    const previousProject = [
-        14,
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13
-    ];
+    const ProjectStaticImg =
+        [ArchStatic,
+            PayApiStatic,
+            MyTeamStatic,
+            SnapshotStatic];
+    const ProjectStaticImg2 = 
+        [ArchStatic2,
+            PayApiStatic2,
+            MyTeamStatic2,
+            SnapshotStatic2];
+    const previousProject = [3,0,1,2];
     const webLinks = [
         "https://snapshot-web-clf94-dev.netlify.app",
         "https://covid-19-tracker-clf94-dev.netlify.app/",
@@ -141,22 +90,7 @@ export default function ProjectFullView(props) {
         "https://easybank-landing-page-git-master.clf94-dev.vercel.app/",
         "https://chat-app-landing-page-git-master.clf94-dev.vercel.app/"
     ]
-    const nextProject = [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        0];
+    const nextProject = [1,2,3,0];
 
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -204,7 +138,7 @@ export default function ProjectFullView(props) {
                             <Grid item md={2} xs={4} direction='column'>
                                 <Button
                                     buttonStyle='btn--outline'
-                                    link={`/full-project/${previousProject[props.index]}`}><img className='previous-next-btn' src={ArrowLeft} alt="arrow left"/></Button>
+                                    link={`/full-project-angular/${previousProject[props.index]}`}><img className='previous-next-btn' src={ArrowLeft} alt="arrow left"/></Button>
                             </Grid>
                             <Grid item md={10} xs={8} direction='column' className='previous-text'>
                                 <h5>Previous Project</h5>
@@ -231,7 +165,7 @@ export default function ProjectFullView(props) {
                             }}>
                                 <Button
                                     buttonStyle='btn--outline'
-                                    link={`/full-project/${nextProject[props.index]}`}><img className='previous-next-btn' src={ArrowRight} alt="arrow right"/></Button>
+                                    link={`/full-project-angular/${nextProject[props.index]}`}><img className='previous-next-btn' src={ArrowRight} alt="arrow right"/></Button>
                             </Grid>
                         </Grid>
                     </Grid>

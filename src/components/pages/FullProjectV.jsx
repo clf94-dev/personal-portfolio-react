@@ -1,16 +1,16 @@
 import React, {useEffect} from 'react'
 import Cta from '../Cta';
-import ProjectFullView from '../ProjectFullView';
+
 import { BrowserRouter as Router, Link} from 'react-router-dom'
 import Navbar from '../Navbar';
+import ProjectFullViewV from '../ProjectFullViewV';
 
   
-function FullProject() {
+function FullProjectV() {
     var param = window.location.pathname;
     var segmArray =param.split('/');
     var index = segmArray.pop();
-    segmArray =param.split('/');
-    var lang= segmArray.pop();
+     
 
 
     useEffect(() => {
@@ -20,10 +20,10 @@ function FullProject() {
     return (
         <div>
              <Navbar />
-            <ProjectFullView  index={index}/>
+            <ProjectFullViewV  index={index}/>
             <Cta/>
         </div>
     )
 }
 
-export default FullProject;
+export default FullProjectV;
